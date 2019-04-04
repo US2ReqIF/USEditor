@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated UserStory -->
+      <package
+            uri="http://www.umu.es/dsdm/requirements/us"
+            class="us.UsPackage"
+            genModel="model/UserStory.genmodel"/>
+   </extension>
+
+</plugin>
